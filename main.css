@@ -74,7 +74,7 @@
         position: relative;
         text-align: left;
     }
-    .blackrow:after {
+    .blackrow::after{
         content: '';
         position:absolute;
         background-position: center;
@@ -89,7 +89,7 @@
         opacity:25%;
     }
     .blackrow .wrapper {
-        z-index: 1;}
+        z-index: -1;}
     .iconrow {
         padding-left: 15%;
         padding-right: 15%;
@@ -151,3 +151,12 @@
     }
     /* .mobilesOnly {visibility:hidden;} */
 
+    .h1 ,h1, .h2 ,h2 {
+    z-index: 1;
+    position: relative;
+    }
+
+    .lead {
+        z-index: 1;
+        position: relative;
+    }
