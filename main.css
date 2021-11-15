@@ -3,6 +3,7 @@
         flex-direction: column;
         min-height: 100%;
         font-family: 'Kanit', sans-serif;
+        overflow-x: hidden;
         }
 
     .display-1 {
@@ -159,4 +160,9 @@
     .lead {
         z-index: 1;
         position: relative;
+    }
+
+    .logo-list .whiterow{
+        padding: 20px 0;
+        text-align: center;
     }
